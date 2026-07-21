@@ -4,20 +4,20 @@ title: Packages
 
 # Packages
 
-Explore the HyPixelic ecosystem. Our packages are designed to be lightweight, performant, and fully typed.
+Explore the HyPixelic ecosystem.
 
 <div class="packages-grid">
   <a href="/packages/mineflayer" class="package-card">
     <h3>mineflayer</h3>
-    <p>Hypixel support for Mineflayer.</p>
+    <p>Hypixel Utilities for Mineflayer.</p>
   </a>
   <a href="/packages/constants" class="package-card">
     <h3>constants</h3>
-    <p>Hypixel API constants and enumerations.</p>
+    <p>Collection of Hypixel Constants used by other HyPixelic Packages.</p>
   </a>
   <a href="/packages/mc-data" class="package-card">
     <h3>mc-data</h3>
-    <p>Minecraft data tailored for Hypixel.</p>
+    <p>Minecraft Data used by other HyPixelic Packages.</p>
   </a>
 </div>
 
