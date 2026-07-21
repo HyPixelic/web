@@ -7,6 +7,9 @@ hero:
   tagline: Built for developers, by developers. Modern, typed, and efficient.
   actions:
     - theme: brand
+      text: Browse Packages
+      link: /packages/
+    - theme: alt
       text: View on JSR
       link: https://jsr.io/@hypixelic
     - theme: alt
@@ -25,8 +28,6 @@ features:
 ---
 
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
 const members = [
   {
     avatar: 'https://www.github.com/pixelicc.png',
