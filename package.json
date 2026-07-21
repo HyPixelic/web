@@ -5,10 +5,13 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "build": "npm run sync && vitepress build",
+    "preview": "vitepress preview",
+    "sync": "pnpm tsx ./scripts/sync.ts"
   },
   "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
     "vitepress": "2.0.0-alpha.17",
     "vue": "^3.5.35"
   }
