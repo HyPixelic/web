@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev",
-    "build": "npm run sync && vitepress build",
+    "build": "vitepress build",
     "preview": "vitepress preview",
     "sync": "pnpm tsx ./scripts/sync.ts"
   },
