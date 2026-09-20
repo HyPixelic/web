@@ -10,7 +10,7 @@
     "sync": "pnpm tsx ./scripts/sync.ts"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.5.1",
     "tsx": "^4.23.1",
     "vitepress": "2.0.0-alpha.20",
     "vue": "^3.5.41"
